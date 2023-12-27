@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* background:linear-gradient(to right, aqua, red, black, white,yellow,pink) */
+    background-color: black;
+    margin-top: 45px;
+    
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+   
+}
+.change-content::after
+{
+    content:" " ;
+    animation: changetext 7s linear;
+    color:rgb(240, 56, 169);
+    
+}
+@keyframes changetext
+{
+    0%
+    {
+        content: "5";
+    }
+    25%
+    {
+        content: "4";
+    }
+    50%
+    {
+        content: "3";
+    }
+    75%
+    {
+        content: "2";
+    }
+    100%
+    {
+        content: "1";
+    }
+    
+}
+.containers
+{
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+    font-family: cursive;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(https://images.pexels.com/videos/855431/free-video-855431.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bubbles img
+{
+    width: 50px;
+    animation: sampletext 7s linear infinite;
+}
+.bubbles
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@keyframes sampletext
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    75%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-90vh);
+    }
+}
+.bubbles img:nth-child(1)
+{
+    animation-delay: 5.5s;
+    width: 40px;
+}
+.bubbles img:nth-child(2)
+{
+    animation-delay: 5s;
+    width: 50px;
+}
+.bubbles img:nth-child(3)
+{
+    animation-delay: 8s;
+    width: 30px;
+}
+.bubbles img:nth-child(4)
+{
+    animation-delay: 6s;
+    width: 35px;
+}
+.bubbles img:nth-child(5)
+{
+    animation-delay: 6.5s;
+    width: 30px;
+}
+.bubbles img:nth-child(5)
+{
+    animation-delay: 9s;
+    width: 25px;
+}
+.bubbles img:nth-child(6)
+{
+    animation-delay: 9.5s;
+    width: 40px;
+}
+.bubbles img:nth-child(7)
+{
+    animation-delay: 5.8s;
+    width: 30px;
+}
+.bubbles img:nth-child(8)
+{
+    animation-delay: 6.4s;
+}
+.bubbles img:nth-child(9)
+{
+    animation-delay: 6.8s;
+    width: 30px;
+}
+.bubbles img:nth-child(10)
+{
+    animation-delay: 7.8s;
+    width: 40px;
+}
+.bubbles img:nth-child(11)
+{
+    animation-delay: 5.8s;
+    width: 35px;
+}
+.bubbles img:nth-child(12)
+{
+    animation-delay: 9.1s;
+    width: 45px;
+}
+.bubbles img:nth-child(13)
+{
+    animation-delay: 5.2s;
+    width: 40px;
+}
+.bubbles img:nth-child(14)
+{
+    animation-delay: 6.4s;
+    width: 35px;
+}
+.bubbles img:nth-child(15)
+{
+    animation-delay: 7.3s;
+    width: 50px;
+}
+.bubbles img:nth-child(16)
+{
+    animation-delay: 9.3s;
+    width: 20px;
+}
+.bubbles img:nth-child(17)
+{
+    animation-delay: 8.3s;
+    width: 50px;
+}
+.bubbles img:nth-child(18)
+{
+    animation-delay: 6.3s;
+    width: 30px;
+}
+.bubbles img:nth-child(19)
+{
+    animation-delay: 7.3s;
+    width: 55px;
+}
+.bubbles img:nth-child(20)
+{
+    animation-delay: 5.9s;
+    width: 35px;
+}
+.bubbles img:nth-child(21)
+{
+    animation-delay: 6.4s;
+    width: 40px;
+}
+.bubbles img:nth-child(22)
+{
+    animation-delay: 7.3s;
+    width: 50px;
+}    
+
